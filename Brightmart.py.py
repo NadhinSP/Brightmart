@@ -1,6 +1,6 @@
 import streamlit as st
 import joblib
-import numpy as np
+import pandas as pd
 
 # Load the saved model
 model = joblib.load(open('linear_reg.sav', 'rb'))
